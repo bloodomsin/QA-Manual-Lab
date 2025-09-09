@@ -1,1 +1,11 @@
+# node, python, macOS, IDE noise
+node_modules/
+__pycache__/
+.DS_Store
+.env
+*.log
+.idea/
+.vscode/
+# screenshots
+screenshots/
 
