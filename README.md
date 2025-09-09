@@ -7,9 +7,9 @@
 - **SQL** พื้นฐานเพื่อใช้ตรวจสอบข้อมูล
 - ความเข้าใจ **SDLC/STLC** (มีไดอะแกรม Mermaid)
 
-> จุดประสงค์: ให้ผู้สัมภาษณ์เห็น “วิธีคิดเชิงกระบวนการ” และ “คุณภาพเอกสาร” แบบมืออาชีพ
+>  “วิธีคิดเชิงกระบวนการ” และ “คุณภาพเอกสาร” แบบมืออาชีพ
 
-## วิธีใช้งานอย่างเร็ว
+## Qucik Guide
 1) อ่าน `requirements/login-requirement.md`  
 2) เปิด Plan `test-plan/test-plan.md` + stratgy `test-plan/test-strategy.md`  
 3) Lerning `test-cases/*.md` and adjust/Add test 
@@ -18,7 +18,7 @@
 6) ทดลองเขียน Bug เพิ่มใน `bug-reports/` (ยึดตาม template)  
 7) ดู SDLC/STLC ที่ `diagrams/sdlc-stlc.md`
 
-## สิ่งที่แนะนำให้เล่าในสัมภาษณ์
+## Test Plan 
 - วิธีแปลง Requirement → Test Scenario → Test Case
 - การกำหนด Severity/Priority & ผลกระทบที่ธุรกิจ
 - กระบวนการ Repro bug ให้ dev เข้าใจภายใน 1 รอบ
