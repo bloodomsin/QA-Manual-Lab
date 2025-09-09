@@ -1,10 +1,10 @@
 ﻿# Contributing Guide
 
 ## Branching
-- `main`: เสถียร พร้อมอ่าน/รีวิว
-- `docs/*`: เพิ่ม/อัปเดตเอกสาร (test cases, plans)
-- `bug/*`: รายงาน/พิสูจน์บั๊ก
-- `exp/*`: ลองแนวคิดใหม่
+- `main`: stable read/review
+- `docs/*`: Add/Update Doc (test cases, plans)
+- `bug/*`: Report/debug
+- `exp/*`: new idea
 
 ## Commit Message (สั้น/ชัด)
 - `docs(test-cases): add negative cases for login`
@@ -15,3 +15,4 @@
 - อ้างอิง requirement ที่เกี่ยวข้อง
 - แนบ evidence (ภาพ/ลิงก์ Postman / SQL result)
 - Self-review ก่อนขอรีวิวจากผู้อื่น
+
