@@ -1,4 +1,4 @@
-﻿# QA Manual Lab 💻🧪
+﻿# QA Manual Lab 
 
 - การเขียน **Test Plan / Test Strategy**
 - การออกแบบ **Test Case** จาก Requirement
@@ -26,4 +26,5 @@
 
 ## Structure Conclusion 
 ดูแผนผังไฟล์ที่ root repo หรือใน README 
+
 
