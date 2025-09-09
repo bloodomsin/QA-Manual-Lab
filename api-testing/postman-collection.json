@@ -1,0 +1,56 @@
+﻿{
+  "info": {
+    "name": "QA Manual Lab - Login API",
+    "_postman_id": "3a6d1c1a-aaaa-bbbb-cccc-111122223333",
+    "description": "Collection สำหรับทดสอบ Login แบบ Manual",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Login - Success",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "url": { "raw": "https://example.com/api/login", "protocol": "https", "host": ["example","com"], "path": ["api","login"] },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"username\": \"user01\",\n  \"password\": \"Pass@123\"\n}"
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Login - Wrong Password",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "url": { "raw": "https://example.com/api/login", "protocol": "https", "host": ["example","com"], "path": ["api","login"] },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"username\": \"user01\",\n  \"password\": \"WrongPass\"\n}"
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Login - SQL Injection Attempt",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "url": { "raw": "https://example.com/api/login", "protocol": "https", "host": ["example","com"], "path": ["api","login"] },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"username\": \"' OR '1'='1\",\n  \"password\": \"\"\n}"
+        }
+      },
+      "response": []
+    }
+  ],
+  "event": []
+}
